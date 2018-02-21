@@ -7,3 +7,8 @@ mysql:
     - MYSQL_DATABASE=test
   volumes:
     - "./conf.d:/etc/mysql/conf.d:ro"
+
+petclinic:
+  image: ashasebastian/petclinic:dev
+  ports:
+    - 9999:8080
