@@ -9,6 +9,6 @@ mysql:
     - "./conf.d:/etc/mysql/conf.d:ro"
 
 petclinic:
-  image: ashasebastian/petclinic:dev
+  image: ashasebastian/petclinic:v1
   ports:
     - 9999:8080
